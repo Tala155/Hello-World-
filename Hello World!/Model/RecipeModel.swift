@@ -1,8 +1,7 @@
 //
 //  RecipeModel.swift
-//  Recipe1
-//
-//  Created by basant amin bakir on 25/10/2024.
+//  Hello World!
+//  Created by Tala Abdullah on 28/10/2024.
 //
 import Foundation
 import PhotosUI

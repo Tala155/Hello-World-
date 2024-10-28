@@ -1,8 +1,8 @@
 //
 //  AddRecipe.swift
-//  Recipe1
+//  Hello World!
 //
-//  Created by basant amin bakir on 25/10/2024.
+//  Created by Tala Abduallah on 28/10/2024.
 //
 
 import SwiftUI
@@ -30,7 +30,7 @@ struct AddRecipe: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 150, height: 150)
-                        .foregroundColor(Color("RecipeOrangi"))
+                        .foregroundColor(Color("Orangi.Recipe"))
                     Text("Upload Photo")
                         .font(.system(size: 20, weight: .bold))
                         .padding(.bottom, 10)
@@ -70,7 +70,7 @@ struct AddRecipe: View {
                 Spacer()
                 Button(action: { showIngredientPop.toggle() }) {
                     Image(systemName: "plus")
-                        .foregroundColor(Color("RecipeOrangi"))
+                        .foregroundColor(Color("Orangi.Recipe"))
                         .font(.system(size: 24))
                 }
             }
@@ -102,10 +102,10 @@ struct AddRecipe: View {
                 NavigationLink(destination: MainView()) {
                     HStack {
                         Image(systemName: "chevron.backward")
-                            .foregroundColor(Color("RecipeOrangi"))
+                            .foregroundColor(Color("Orangi.Recipe"))
                         Text("back")
                             .font(.system(size: 20))
-                            .foregroundColor(Color("RecipeOrangi"))
+                            .foregroundColor(Color("Orangi.Recipe"))
                     }
                 }
             }
@@ -117,7 +117,7 @@ struct AddRecipe: View {
                 }) {
                     Text("Save")
                         .font(.system(size: 20))
-                        .foregroundColor(Color("RecipeOrangi"))
+                        .foregroundColor(Color("Orangi.Recipe"))
                 }
             }
         }

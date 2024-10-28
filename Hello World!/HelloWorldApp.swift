@@ -1,6 +1,6 @@
 //
 //  FitSyncApp.swift
-//  FitSync
+//  Hello World!
 //
 //  Created by Noura on 26/03/1446 AH.
 //

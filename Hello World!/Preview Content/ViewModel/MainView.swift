@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Recipe1
+// Hello World!
 //
-//  Created by basant amin bakir on 25/10/2024.
+//  Created by Tala Abdullah on 28/10/2024.
 //
 
 import SwiftUI
@@ -21,10 +21,10 @@ struct MainView: View {
                 ZStack {
                     Circle()
                         .stroke(lineWidth: 30.0)
-                        .foregroundColor(Color("RecipeOrangi"))
+                        .foregroundColor(Color("Orangi.Recipe"))
                         .frame(width: 300, height: 300)
                     Image(systemName: "fork.knife")
-                        .foregroundColor(Color("RecipeOrangi"))
+                        .foregroundColor(Color("Orangi.Recipe"))
                         .font(.system(size: 160))
                 }
                 .padding(.bottom, 30)
