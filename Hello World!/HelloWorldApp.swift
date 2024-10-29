@@ -8,7 +8,8 @@
 import SwiftUI
 
 @main
-struct HelloWorldApp: App {
+ struct HelloWorldApp : App
+{
     var body: some Scene {
         WindowGroup {
             MainView()

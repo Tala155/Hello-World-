@@ -53,7 +53,7 @@ struct AddRecipe: View {
             // Description field
             VStack(alignment: .leading, spacing: 8) {
                 Text("Description").font(.system(size: 18, weight: .bold))
-                TextEditor(text: $recipeViewModel.recipeDescription)
+                TextField("Description",text: $recipeViewModel.recipeDescription)
                     .scrollContentBackground(.hidden)
                     .frame(height: 100)
                     .padding()
