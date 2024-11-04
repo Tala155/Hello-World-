@@ -1,4 +1,4 @@
-# Recipe App
+# Recipe App 👩🏻‍🍳
 
 ## Overview
 is an application designed to facilitate communication and interaction between individuals and businesses. 
