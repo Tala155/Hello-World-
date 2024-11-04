@@ -1,4 +1,4 @@
-# Reicpe App
+# Recipe App
 is an application designed to facilitate communication and interaction between individuals and businesses. 
 ##
 It offers a variety of features such as direct messaging, content sharing, and customer engagement tools. 
